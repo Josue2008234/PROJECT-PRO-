@@ -1,0 +1,432 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(image\(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+/* Mobile (Default) */
+body {
+  font-size: 16px;
+}
+
+/* Tablet (768px and up) */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  .navbar {
+    display: flex; /* Horizontal menu on tablets/desktops */
+  }
+}
+
+/* Desktop (1024px and up) */
+@media (min-width: 1024px) {
+  .login-form {
+    width: 50%; /* Half width on large screens */
+  }
+}
+.all{
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+.banner{
+    height: 13vh;
+    background-color: rgba(0, 0, 0, 0.849);
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+
+.hea{
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 27rem;
+    
+}
+.logo{
+    display: inline;
+    justify-content: space-between;
+    gap: 40px; /* space between logo and brand name */
+}
+
+.navbar{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 5px;
+    background-color: rgb(44, 39, 39);
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    
+}  
+.container{
+    display: inline;
+    color: black;
+}
+#p1{
+    font-size: 80px;
+}
+#btn{
+    background-color: rgba(255, 255, 0, 0.884);
+    height: 8vh;
+    width: 12vw;
+    border-color: rgba(0, 0, 0, 0.925);
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    
+
+}
+
+#p2{
+    font-size: 17px;
+    margin-top: 100px;
+}
+footer{
+    color: white;
+    height: 37px;
+}
+#about{
+    display: flex;
+}
+.photo{
+  display: inline;
+  width: 50VW;
+  height: 31.5rem;
+}
+#para{
+    height: 34.5rem;
+    width: 43rem;
+    
+}
+h1{
+    color: black;
+}
+#contact-all {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.829);
+}
+.form{
+    margin-top: 1rem;
+    padding: 10px;
+    padding-top: 40px;
+    margin-left: 10rem;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+    height: 20rem;
+    width: 40rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+input, textarea {
+    height: 40px;
+    width: 38rem;
+}
+#wed{
+    color: rgba(255, 255, 255, 0.945);
+    font-size: x-large;
+}
+#kade{
+    color: rgba(0, 0, 255, 0.795);
+}
+.fresh{
+    height: 60rem;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgba(255, 255, 0, 0.719);
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 10px;
+}
+#sani{
+    height: 30px;
+    width: 25rem;
+    display: grid;
+    margin-top: 3px;
+    margin-left: 3px;
+    
+}
+.dred input{
+    flex: 1;
+    padding: 5px;
+}
+label{
+    font-size: 20px;
+    color: white;
+}
+.d1{
+    background-color: rgba(0, 0, 0, 0.644);
+    height: 50vh;
+    width: 22vw;
+    border-radius: 10px;
+    margin: 10px;
+}
+#photo{
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+#wef{
+    color: white;
+    font-size: 20px;
+}
+.soba{
+    display: flex;
+    margin-left: 25px;
+    justify-content: space-between;
+}
+.deg{
+    display: flex;
+     margin-left: 25px;
+     justify-content: space-between;
+     margin-top: 15px;
+}
+.sebu{
+    background-color: rgba(0, 0, 0, 0.562);
+}
+#but{
+    height: 6vh;
+    width: 7vw;
+    background-color: rgba(255, 255, 0, 0.877);
+}
+#login{
+    background-color: rgba(255, 255, 0, 0.76);
+    height: 40px;
+    width: 5rem;
+    margin-left: 18rem;
+}
+#sign{
+    height: 40px;
+    width: 5rem;
+    margin-left: 0rem;
+}
+.try{
+    justify-content: right;
+}
+.jozzy{
+    height: 35vh;
+    width: 30vw;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.829);
+    border-radius: 6px;
+    
+}
+#four{
+    height: 40px;
+    width: 27rem;
+    margin-left: 3px;
+    margin-top: 10px;  
+}
+#two{
+    height: 40px;
+    width: 27rem;
+    margin-left: 3px;
+    margin-top: 5px;  
+}
+#qwer{
+    font-size: 16px;
+    color: white;
+}
+.skizzy{
+    height: 60vh;
+    width: 30vw;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.829);
+    border-radius: 6px;
+    
+}
+#five{
+    height: 30px;
+    width: 25rem;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+#six{
+    height: 30px;
+    width: 25rem;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+/* Booking Form Styling */
+.booking-container {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.booking-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input,
+.form-group select {
+    max-width: 97%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #45a049;
+}
+/* Contact Page Styling */
+.contact-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-container h2 {
+    color: #333;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.info-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.info-card i {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.info-card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.info-card p {
+    color: #666;
+    margin: 0;
+}
+
+/* Form Styling (Reuse from booking page) */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #45a049;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column;
+    }
+}
